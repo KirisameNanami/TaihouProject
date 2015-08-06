@@ -1,0 +1,24 @@
+.RegistLabel {
+    font-size:large;
+    color:white;
+    transition:color 0.5s;
+    -webkit-transition:color 0.5s;
+    -moz-transition:color 0.5s;
+}
+
+.RegistLabel:hover {
+    color:#F5DEB3;
+    transition color 0.5s;
+    -webkit-transition:color 0.5s;
+    -moz-transition:color 0.5s;
+}
+
+.Register,.Login {
+    display: none;
+    margin-top: 10px;
+}
+
+.Register Label.RegistLabel:hover,
+.Login Label.RegistLabel:hover {
+    color:#99FF99;
+}
